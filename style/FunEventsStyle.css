@@ -1,0 +1,201 @@
+.bodyBox {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #2B1149;
+	color: #fff;
+	word-break: break-word;
+}
+
+.backBox {
+	width: 84%;
+	padding: 3% 8% 1% 8%;
+	background-color: #2B1149;
+	color: #fff;
+	border-bottom: 1px solid #DF9DDF
+}
+
+.headBox {
+	margin-top: -1%;
+	font-size: 45px;
+	color: #fff;
+	width: 100%;
+	font-family: Impact, Charcoal, sans-serif;
+
+}
+
+.menuBox {
+	text-align: right;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: right;
+
+}
+
+.menuItems {
+	cursor: pointer;
+	padding: 0 0 0 40px;
+	font-weight: bolder;
+}
+
+.menuNowItem {
+	cursor: pointer;
+	padding: 0 0 0 40px;
+	font-weight: bolder;
+	color: #D06DD0;
+}
+
+.firstLine {
+	width: calc(100% - 50px);
+	margin-bottom: 40px;
+	background-color: #fff;
+	color: #2B1149;
+	padding: 8px
+}
+
+.otherLine {
+	width: calc(100% - 50px);
+	margin: 50px 0 40px 0;
+	background-color: #fff;
+	color: #2B1149;
+	padding: 8px
+}
+
+.lineItems {
+	height: 30vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 40px;
+	color: #D06DD0;
+	font-family: Impact, Charcoal, sans-serif;
+	background-position:center;
+	position: relative;
+}
+
+.itemsTitle {
+	font-size: 2.5vw;
+	color: #D06DD0;
+	width: 100%;
+	text-align: center ;
+	font-family: Impact, Charcoal, sans-serif;
+	position: absolute;
+	bottom: 5px;
+}
+
+.itemText {
+	margin: 20px 0 10px 0;
+	text-align: center;
+	font-family: Georgia, serif;
+	font-weight: bold;
+	height: 23vh;
+	overflow-y: auto;
+	font-size: 1.5vw;
+}
+
+.tdBox {
+	width: 33%;
+	color: #fff;
+	vertical-align: top;
+	align-content: center;
+	align-items: center;
+}
+
+.tableBox {
+	width: 100%;
+	border-collapse: collapse;
+
+}
+
+.mainDiv {
+	margin: 2% 12%;
+	width: 76%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+@media only screen and (max-width: 970px) {
+
+	.menuBox {
+		flex-direction: column;
+
+	}
+
+	.menuItems {
+		cursor: pointer;
+		padding: 0;
+		font-weight: bolder;
+		float: none;
+		text-align: right;
+		font-size: 0.825rem;
+	}
+
+	.menuNowItem {
+		cursor: pointer;
+		padding: 0;
+		font-weight: bolder;
+		color: #D06DD0;
+		float: none;
+		text-align: right;
+		font-size: 0.825rem;
+	}
+
+	.headBox {
+		margin-top: -1%;
+		font-size: 27px;
+		color: #fff;
+		width: 100%;
+		font-family: Impact, Charcoal, sans-serif;
+	}
+
+	.tdBox {
+		width: 100%;
+		color: #fff;
+	}
+
+	.lineItems {
+		height: 25vh;
+		font-size: 5vw;
+	}
+
+	.itemText {
+		margin: 2px 0 1px 0;
+		text-align: center;
+		font-family: Georgia, serif;
+		font-weight: bold;
+		height: 15vh;
+		overflow-y: auto;
+		font-size: 3vw;
+	}
+
+	.itemsTitle {
+		font-size: 25px;
+		color: #D06DD0;
+		width: 100%;
+		text-align: center;
+		font-family: Impact, Charcoal, sans-serif;
+		position: absolute;
+		bottom: 5px;
+	}
+
+	.firstLine {
+		margin: 25px 0 25px 0;
+		background-color: #fff;
+		color: #2B1149;
+		padding: 8px
+	}
+
+	.otherLine {
+		margin: 25px 0 25px 0;
+		background-color: #fff;
+		color: #2B1149;
+		padding: 8px
+	}
+
+}

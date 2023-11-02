@@ -1,0 +1,135 @@
+a {
+	text-decoration: none;
+}
+
+.bodyBox {
+	height: 100%;
+	width: 84%;
+	padding: 0 8%;
+	margin: 0;
+	background-image: url('../picture/homeback.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.firstTitle {
+	margin: 6% 0 0 0;
+	padding: 0;
+	font-size: 10vw;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+	text-shadow: -2px -2px 6px #DF9DDF;
+	letter-spacing: 20px;
+	font-weight: bold;
+}
+
+.secondTitle {
+	margin-top: -1%;
+	font-size: 4vw;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.clickItems {
+	margin: 2% 0 0 0;
+	padding: 0;
+	font-size: 3vw;
+	color: #fff;
+	width: 100%;
+	min-height: 20vh;
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+	text-shadow: -2px -2px 6px #ADD6FE;
+	letter-spacing: 10px;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.menuItems {
+	cursor: pointer;
+	text-align: center;
+	border-right: 5px solid #fff;
+	padding: 0 2vw;
+}
+
+.menuLastItems {
+	cursor: pointer;
+	text-align: center;
+	padding: 0 2vw;
+}
+
+.titleText {
+	margin: 20px 0 0 0;
+	font-size: 1.5vw;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	font-family: Georgia, serif;
+	font-weight: bold;
+	text-shadow: -2px -2px 6px #ADD6FE;
+}
+
+@media only screen and (max-width: 1300px) {
+
+	.bodyBox {
+		background-color: #2B1149;
+	}
+
+	.firstTitle {
+		margin: 7vh 0;
+		font-size: 16vw;
+		letter-spacing: 1px;
+		min-height: 20vh;
+	}
+
+	.secondTitle {
+		margin-top: 5%;
+		font-size: 40px;
+		color: #fff;
+		width: 80%;
+		padding: 0 10%;
+		text-align: center;
+		font-family: Impact, Charcoal, sans-serif;
+	}
+
+	.clickItems {
+		color: #ADD6FE;
+		font-size: 5vw;
+		width: 100%;
+		text-shadow: -1px -1px 3px #FFFFFF;
+		letter-spacing: 1px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.menuItems {
+		border: none;
+		margin: 1vh 0;
+	}
+
+	.menuLastItems {
+		float: none;
+		vertical-align: middle;
+		margin: 1vh 0;
+	}
+
+	.titleText {
+		margin: 5vh 0 0 0;
+		font-size: 25px;
+		color: #fff;
+		width: 80%;
+		padding: 0 10%;
+		text-align: center;
+		font-family: Georgia, serif;
+		font-weight: bold;
+		text-shadow: -1px -1px 3px #ADD6FE;
+	}
+
+}

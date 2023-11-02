@@ -1,0 +1,193 @@
+.bodyBox {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #2B1149;
+	color: #fff
+}
+
+.backBox {
+	width: 84%;
+	padding: 3% 8% 1% 8%;
+	border-bottom: 1px solid #DF9DDF;
+}
+
+.headBox {
+	margin-top: -1%;
+	font-size: 45px;
+	color: #fff;
+	width: 100%;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.menuBox {
+	text-align: right;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: right;
+
+}
+
+.menuItems {
+	cursor: pointer;
+	padding: 0 0 0 40px;
+	font-weight: bolder;
+}
+
+.menuNowItem {
+	cursor: pointer;
+	padding: 0 0 0 40px;
+	font-weight: bolder;
+	color: #D06DD0;
+}
+
+.otherLine {
+	width: 100%;
+	margin-top: 4%;
+}
+
+.firstLine {
+	width: 100%;
+	margin-top: 5%;
+}
+
+.itemsTitle {
+	font-size: 40px;
+	color: #fff;
+	width: 100%;
+	text-align: left;
+	font-family: Impact, Charcoal, sans-serif;
+	height: 65px
+}
+
+.itemText {
+	max-height: 255px;
+	overflow-y: auto;
+	font-size: 1.5vw;
+}
+
+.doubleText {
+	text-align: left;
+	color: #fff;
+	vertical-align: top;
+	width: calc(100% - 31vw);
+	margin-right: 1vw;
+	;
+	float: left;
+}
+
+.singleText {
+	text-align: left;
+	color: #fff;
+	margin-left: 1vw;
+	;
+	vertical-align: top;
+	width: calc(100% - 31vw);
+	float: right;
+}
+
+.imgBox {
+	width: 30vw;
+	vertical-align: middle;
+}
+
+.doubleBox {
+	width: 100%;
+	text-align: right;
+	border: 2px solid yellow;
+}
+
+.singleBox {
+	width: 100%;
+	text-align: left;
+	border: 2px solid red;
+}
+
+.mainDiv {
+	margin: 2% 12%;
+	width: 76%;
+}
+
+iframe {
+	width: 30vw;
+	min-height: 320px;
+}
+
+
+@media only screen and (max-width: 970px) {
+
+	.menuBox {
+		flex-direction: column;
+
+	}
+
+	.menuItems {
+		cursor: pointer;
+		padding: 0;
+		font-weight: bolder;
+		float: none;
+		text-align: right;
+		font-size: 0.825rem;
+	}
+
+	.menuNowItem {
+		cursor: pointer;
+		padding: 0;
+		font-weight: bolder;
+		color: #D06DD0;
+		float: none;
+		text-align: right;
+		font-size: 0.825rem;
+	}
+
+	.headBox {
+		margin-top: -1%;
+		font-size: 27px;
+		color: #fff;
+		width: 100%;
+		font-family: Impact, Charcoal, sans-serif;
+	}
+
+	.itemsTitle {
+		font-size: 25px;
+		color: #fff;
+		width: 100%;
+		text-align: left;
+		font-family: Impact, Charcoal, sans-serif;
+		height: 45px
+	}
+
+	.doubleText {
+
+		color: #fff;
+		vertical-align: top;
+		width: calc(100% - 20px);
+		margin: 20px;
+		float: none;
+	}
+
+	.itemText {
+		max-height: 255px;
+		overflow-y: auto;
+		font-size: 2.5vw;
+		text-align: left;
+	}
+
+	.singleText {
+		text-align: center;
+		color: #fff;
+		margin: 20px;
+		vertical-align: top;
+		width: calc(100% - 20px);
+		float: none;
+	}
+
+	iframe {
+		margin: 20px;
+		width: calc(100% - 20px);
+		text-align: center;
+	}
+}

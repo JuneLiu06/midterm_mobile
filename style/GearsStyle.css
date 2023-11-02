@@ -1,0 +1,201 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+.bodyBox {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #2B1149;
+	color: #fff
+}
+
+.backBox {
+	width: 84%;
+	padding: 3% 8% 1% 8%;
+	background-color: #2B1149;
+	color: #fff;
+	border-bottom: 1px solid #DF9DDF
+}
+
+.headBox {
+	margin-top: -1%;
+	font-size: 45px;
+	color: #fff;
+	width: 100%;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.menuBox {
+	text-align: right;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: right;
+
+}
+
+.menuNowItem {
+	cursor: pointer;
+	padding: 0 0 0 40px;
+	font-weight: bolder;
+	color: #D06DD0;
+}
+
+.menuItems {
+	cursor: pointer;
+	padding: 0 0 0 40px;
+	font-weight: bolder;
+}
+
+
+
+.mianTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.lineItems {
+	height: 245px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 40px;
+	color: #D06DD0;
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.itemsTitle {
+	font-size: 40px;
+	color: #D06DD0;
+	width: 100%;
+	text-align: left;
+	font-family: Impact, Charcoal, sans-serif;
+	margin: 10px 0 20px 0;
+}
+
+.itemText {
+	margin-top: 20px;
+	text-align: center;
+	font-family: Georgia, serif;
+	font-weight: bold;
+}
+
+.firstLine {
+	width: 100%;
+	text-align: left;
+}
+
+.otherLine {
+	width: 100%;
+	text-align: left;
+	padding-top: 20px;
+	border-top: 1px solid #621485;
+}
+
+.cardLeftTable {
+	width: 50%;
+	vertical-align: top;
+	text-align: left;
+}
+
+.cardRightTable {
+	width: 50%;
+	color: #fff;
+	vertical-align: top;
+}
+
+.cardRightBox {
+	width: 33vw;
+	margin: 10px 0 20px 10px;
+	font-size: 18px;
+	float: right;
+}
+
+.cardLeftBox {
+	width: 33vw;
+	text-align: left;
+	margin: 10px 0 20px 10px;
+	font-size: 18px;
+}
+
+.mainDiv {
+	margin: 2% 12%;
+	width: 76%;
+}
+
+img {
+	height: 20vw;
+	width: 33vw;
+}
+
+@media only screen and (max-width: 970px) {
+
+
+
+	.headBox {
+		margin-top: -1%;
+		font-size: 5vw;
+		color: #fff;
+		width: 100%;
+		font-family: Impact, Charcoal, sans-serif;
+	}
+
+	.menuBox {
+		flex-direction: column;
+
+	}
+
+	.cardRightBox {
+		font-size: 2vw;
+
+	}
+
+	.cardLeftBox {
+		font-size: 2vw;
+	}
+
+	.itemsTitle {
+		font-size: 2.5vw;
+		color: #D06DD0;
+		width: 100%;
+		text-align: left;
+		font-family: Impact, Charcoal, sans-serif;
+		margin: 10px 0 20px 0;
+		min-height: 50px;
+	}
+
+	.itemText {
+		margin-top: 2vh;
+		text-align: center;
+		font-family: Georgia, serif;
+		font-weight: bold;
+	}
+
+	.menuItems {
+		cursor: pointer;
+		padding: 0;
+		font-weight: bolder;
+		float: none;
+		text-align: right;
+		font-size: 0.825rem;
+	}
+
+	.menuNowItem {
+		cursor: pointer;
+		padding: 0;
+		font-weight: bolder;
+		color: #D06DD0;
+		float: none;
+		text-align: right;
+		font-size: 0.825rem;
+	}
+
+}
+
+@media only screen and (min-width: 1084px) {}
